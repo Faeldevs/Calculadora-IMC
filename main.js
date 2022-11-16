@@ -2,7 +2,7 @@
 
 
 const calcular = document.getElementById('calcular'); //botao calcular
-alert("ATENÇÃO: Use ponto '.' ao invés de vírgula ',' "); //alerta avisando sobre as pontuações de ponto e vírgula
+alert("ATENÇÃO: Use ponto '.' ao invés de vírgula ',' "); //alerta sobre as pontuações de ponto e vírgula
 
 /*observação:
   value - o valor dele, no caso, onde fica o texto, (onde input será digitado)
@@ -28,19 +28,19 @@ function imc (){
             classificacao = 'abaixo do peso.';
 
         }else if (valorIMC < 25){                               // entre 18.5 e 25 , seu peso é ideal
-            classificacao = 'peso é ideal'; 
+            classificacao = 'com o peso ideal'; 
 
         }else if (valorIMC < 30){                               // entre 25 e 30 um pouco acima do peso  
             classificacao = 'levemente acima do peso.'; 
 
         }else if (valorIMC < 35){                               // entre 30 e 35 grau 1 obesidade
-            classificacao = 'nível de obesidade grau I.';
+            classificacao = 'no nível de obesidade grau I.';
 
         }else if (valorIMC < 40){                                // entre 35 e 40 grau 2 obesidade
-            classificacao = 'nível de obesidade grau II';
+            classificacao = 'no nível de obesidade grau II';
 
         }else if (valorIMC < Infinity) {                               //  40 para cima obesidade grave
-            classificacao = 'obesidade grave, grau III. Se cuide!!';
+            classificacao = 'com obesidade grave, grau III. Se cuide!!';
 
         }                                                      
     
